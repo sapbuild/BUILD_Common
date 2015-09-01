@@ -1,7 +1,3 @@
-var helper = require('norman-build-helper');
-
-//var remote = "origin/master";
-
 var subProjects = [
     'server/common-server'
 ];
@@ -32,7 +28,6 @@ module.exports = function (grunt) {
             server: 'sample/server'
         },
         pkg: grunt.file.readJSON('package.json'),
-        publish: require('./grunt-conf/publish'),
         // Empties folders to start fresh
         clean: require('./grunt-conf/clean.js'),
         // convert svg images to sprite
@@ -44,7 +39,6 @@ module.exports = function (grunt) {
         file_append: require('./grunt-conf/svg-file-append.js'),
         svgmin: require('./grunt-conf/svg-min.js')
     });
-
 
     grunt.registerTask('default', [ 'build' ]);
     grunt.registerTask('dist', [ 'build' ]);
