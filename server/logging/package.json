@@ -1,0 +1,18 @@
+{
+  "name": "norman-logging",
+  "version": "0.10.0",
+  "description": "Norman logging library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.wdf.sap.corp/Norman/Common.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "https://github.wdf.sap.corp/Norman/Norman/blob/master/LICENSE.txt"
+    }
+  ],
+  "peerDependencies": {
+    "norman-server-tp": "*"
+  }
+}

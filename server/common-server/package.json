@@ -1,0 +1,26 @@
+{
+  "name": "norman-common-server",
+  "version": "0.10.4",
+  "description": "Norman common server components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.wdf.sap.corp/Norman/Common.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "https://github.wdf.sap.corp/Norman/Norman/blob/master/LICENSE.txt"
+    }
+  ],
+  "peerDependencies": {
+    "norman-server-tp": "*"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-eslint": "^2.1.0",
+    "grunt-mocha-test": "^0.12.4",
+    "mocha": "^2.0.1",
+    "norman-build-helper": "*"
+  }
+}

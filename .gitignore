@@ -1,0 +1,13 @@
+.project
+.idea/
+doc/
+coverage/
+.sonar/
+node_modules/
+logs/
+lib-cov/
+
+.DS_Store
+npm-debug.log
+*.sublime-*
+*.iml
