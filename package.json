@@ -22,7 +22,6 @@
   "dependencies": {
     "lodash": "3.8.0",
     "node-handlebars": "0.9.5",
-    "norman-app-server": "*",
     "norman-server-tp": "*"
   },
   "devDependencies": {
