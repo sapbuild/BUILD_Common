@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
+	grunt.loadNpmTasks('grunt-eslint');
 
     grunt.initConfig({
         // vars
@@ -9,9 +10,8 @@ module.exports = function (grunt) {
             dev: { NODE_ENV: 'development' },
             prod: { NODE_ENV: 'production' },
             test: { NODE_ENV: 'test' },
-            jenkins: { NODE_ENV: 'jenkins' },
-            client: 'sample/client',
-            server: 'sample/server'
+            client: 'client',
+            server: 'server'
         },
         pkg: grunt.file.readJSON('package.json'),
         // Empties folders to start fresh

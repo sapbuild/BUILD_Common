@@ -1,9 +1,12 @@
 'use strict';
 module.exports = {
+    options: {
+        config: '.eslintrc',
+        ignore: false
+    },
     client: {
         options: {
-            config: 'client/.eslintrc',
-            ignore: false
+            config: 'client/.eslintrc'
         },
         src: [
             'client/**/*.js',
