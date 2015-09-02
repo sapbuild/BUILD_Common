@@ -1,18 +1,4 @@
-var subProjects = [
-    'server/common-server'
-];
-
 module.exports = function (grunt) {
-    helper.setGrunt(grunt);
-
-    helper.grunt.loadTasks('grunt-svg-sprite');
-    helper.grunt.loadTasks('grunt-contrib-clean');
-    helper.grunt.loadTasks('grunt-text-replace');
-    helper.grunt.loadTasks('grunt-file-append');
-    helper.grunt.loadTasks('grunt-svgmin');
-    helper.grunt.loadTasks('grunt-bump');
-    helper.grunt.loadTasks('grunt-eslint');
-
     // Time how long tasks take. Can help when optimizing build times
     require('time-grunt')(grunt);
 
@@ -49,10 +35,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', function (target) {
         target = target || 'dev';
         var tasks = [
-            'eslint:client',
-            //'clean:' + target,
-            //'svg-sprite',
-            'sub-projects'
+            'eslint:client'
         ];
 
         return grunt.task.run(tasks);
@@ -60,9 +43,4 @@ module.exports = function (grunt) {
 
     grunt.registerTask('dev', [ 'build:dev']);
     grunt.registerTask('svg-sprite', [ 'clean:svg', 'svg_sprite', 'svgmin', 'replace', 'file_append']);
-
-    grunt.registerTask('sub-projects', 'Run grunt build on sub-projects', function () {
-        var done = this.async();
-        helper.grunt.reactor.runTarget('build', subProjects, done);
-    });
 };
