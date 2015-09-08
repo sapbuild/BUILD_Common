@@ -26,7 +26,7 @@
     "mocha": "^2.0.1"
   },
   "peerDependencies": {
-    "node-sap-app-server": "0.1.1",
+    "node-sap-app-server": "0.1.2",
     "norman-common-server": "*",
     "norman-server-tp": "*"
   }
