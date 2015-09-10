@@ -27,7 +27,7 @@
   },
   "peerDependencies": {
     "node-sap-app-server": "0.1.2",
-    "norman-common-server": "*",
-    "norman-server-tp": "*"
+    "norman-common-server": "0.1.2",
+    "norman-server-tp": "0.1.1"
   }
 }
