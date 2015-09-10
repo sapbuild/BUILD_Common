@@ -1,6 +1,6 @@
 {
   "name": "norman-audit-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Norman Audit Service CLI",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "peerDependencies": {
     "norman-common-server": "0.1.3",
-    "norman-audit-server": "0.1.1"
+    "norman-audit-server": "0.1.2"
   },
   "devDependencies": {
     "chai": "1.10.0",
