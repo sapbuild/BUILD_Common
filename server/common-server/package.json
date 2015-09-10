@@ -13,7 +13,7 @@
     }
   ],
   "peerDependencies": {
-    "norman-server-tp": "0.1.0"
+    "norman-server-tp": "0.1.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",
