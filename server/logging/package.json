@@ -13,6 +13,6 @@
     }
   ],
   "peerDependencies": {
-    "norman-server-tp": "*"
+    "norman-server-tp": "0.1.0"
   }
 }
