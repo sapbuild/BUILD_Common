@@ -13,9 +13,6 @@
     }
   ],
   "dependencies": {},
-  "peerDependencies": {
-    "norman-common-server": "*"
-  },
   "devDependencies": {
     "chai": "^1.10.0",
     "grunt": "^0.4.5",

@@ -24,10 +24,5 @@
   "devDependencies": {
     "chai": "2.2.0",
     "mocha": "^2.0.1"
-  },
-  "peerDependencies": {
-    "node-sap-app-server": "*",
-    "norman-common-server": "*",
-    "norman-server-tp": "*"
   }
 }
