@@ -1,6 +1,6 @@
 {
   "name": "norman-audit-server",
-  "version": "0.1.2",
+  "version": "0.3.0",
   "description": "Norman Audit Service",
   "repository": {
     "type": "git",
