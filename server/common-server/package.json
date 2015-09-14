@@ -12,9 +12,6 @@
       "url": "https://github.com/SAP/Build/blob/master/LICENSE.txt"
     }
   ],
-  "peerDependencies": {
-    "norman-server-tp": "0.1.1"
-  },
   "devDependencies": {
     "chai": "^1.10.0",
     "grunt": "^0.4.5",
