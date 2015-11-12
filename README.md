@@ -1,5 +1,5 @@
 [![Build](https://img.shields.io/travis/sapbuild/Common.svg?style=flat-square)](http://travis-ci.org/sapbuild/Common)
-[![Version](https://img.shields.io/npm/v/Common.svg?style=flat-square)](https://npmjs.org/package/Common)
+[![Version](https://img.shields.io/npm/v/norman-common-client.svg?style=flat-square)](https://npmjs.org/package/norman-common-client)
 [![Dependency Status](https://david-dm.org/sapbuild/Common.svg)](https://david-dm.org/sapbuild/Common)
 [![devDependency Status](https://david-dm.org/sapbuild/Common/dev-status.svg)](https://david-dm.org/sapbuild/Common#info=devDependencies)
 [![Coverage](https://img.shields.io/coveralls/sapbuild/Common/master.svg?style=flat-square)](https://coveralls.io/r/sapbuild/Common?branch=master)
